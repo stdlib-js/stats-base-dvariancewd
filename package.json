@@ -1,0 +1,44 @@
+{
+  "name": "@stdlib/stats-base-dvariancewd",
+  "version": "0.0.0",
+  "description": "Calculate the variance of a double-precision floating-point strided array using Welford's algorithm.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dvariancewd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "variance",
+    "var",
+    "deviation",
+    "dispersion",
+    "sample variance",
+    "unbiased",
+    "stdev",
+    "std",
+    "standard deviation",
+    "welford",
+    "strided",
+    "strided array",
+    "typed",
+    "array",
+    "float64",
+    "double",
+    "float64array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
