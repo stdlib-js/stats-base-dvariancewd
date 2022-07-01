@@ -76,32 +76,30 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dvariancewd
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-dvariancewd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvariancewd@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvariancewd@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.dvariancewd;
-})();
-</script>
+var dvariancewd = require( '@stdlib/stats-base-dvariancewd' );
 ```
 
 #### dvariancewd( N, correction, x, stride )
@@ -207,16 +205,11 @@ var v = dvariancewd.ndarray( N, 1, x, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvariancewd@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var Float64Array = require( '@stdlib/array-float64' );
+var dvariancewd = require( '@stdlib/stats-base-dvariancewd' );
 
 var x;
 var i;
@@ -229,11 +222,6 @@ console.log( x );
 
 var v = dvariancewd( x.length, 1, x, 1 );
 console.log( v );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -336,12 +324,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-base-dvariancewd/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-base-dvariancewd/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dvariancewd/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-base-dvariancewd/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dvariancewd/main/LICENSE
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -351,15 +340,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanvariancewd]: https://github.com/stdlib-js/stats-base-dnanvariancewd/tree/umd
+[@stdlib/stats/base/dnanvariancewd]: https://github.com/stdlib-js/stats-base-dnanvariancewd
 
-[@stdlib/stats/base/dstdevwd]: https://github.com/stdlib-js/stats-base-dstdevwd/tree/umd
+[@stdlib/stats/base/dstdevwd]: https://github.com/stdlib-js/stats-base-dstdevwd
 
-[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats-base-dvariance/tree/umd
+[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats-base-dvariance
 
-[@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats-base-svariancewd/tree/umd
+[@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats-base-svariancewd
 
-[@stdlib/stats/base/variancewd]: https://github.com/stdlib-js/stats-base-variancewd/tree/umd
+[@stdlib/stats/base/variancewd]: https://github.com/stdlib-js/stats-base-variancewd
 
 <!-- </related-links> -->
 
