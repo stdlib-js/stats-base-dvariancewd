@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-27)
+## Unreleased (2025-01-06)
+
+<section class="features">
+
+### Features
+
+-   [`a33962b`](https://github.com/stdlib-js/stdlib/commit/a33962b2d83d88dd4bad45d9464b3baa8f000fa4) - add C ndarray interface and refactor implementation for `stats/base/dvariancewd` [(#4501)](https://github.com/stdlib-js/stdlib/pull/4501)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,7 +22,8 @@
 
 <details>
 
--   [`88114d8`](https://github.com/stdlib-js/stdlib/commit/88114d8f76c2aaff362a5f8d42aa9ab7d30c09d1) - **refactor:** update `stats/base/dvariancewd` native addon from C++ to C [(#4283)](https://github.com/stdlib-js/stdlib/pull/4283) _(by Vivek maurya)_
+-   [`a33962b`](https://github.com/stdlib-js/stdlib/commit/a33962b2d83d88dd4bad45d9464b3baa8f000fa4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancewd` [(#4501)](https://github.com/stdlib-js/stdlib/pull/4501) _(by Aayush Khanna)_
+-   [`88114d8`](https://github.com/stdlib-js/stdlib/commit/88114d8f76c2aaff362a5f8d42aa9ab7d30c09d1) - **refactor:** update `stats/base/dvariancewd` native addon from C++ to C [(#4283)](https://github.com/stdlib-js/stdlib/pull/4283) _(by Vivek Maurya)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
@@ -28,11 +39,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Philipp Burckhardt
--   Vivek maurya
+-   Vivek Maurya
 
 </section>
 
