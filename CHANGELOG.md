@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-03-29)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`4de7fc4`](https://github.com/stdlib-js/stdlib/commit/4de7fc4b59fa279a67b642213e90760eaf5f7b88) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b00d9f1`](https://github.com/stdlib-js/stdlib/commit/b00d9f1064701187f48a05b9753e74ae835b0726) - **docs:** fix typing error in `repl.txt` of `stats/base/*` [(#4750)](https://github.com/stdlib-js/stdlib/pull/4750) _(by Aayush Khanna)_
 -   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`a33962b`](https://github.com/stdlib-js/stdlib/commit/a33962b2d83d88dd4bad45d9464b3baa8f000fa4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancewd` [(#4501)](https://github.com/stdlib-js/stdlib/pull/4501) _(by Aayush Khanna)_
